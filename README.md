@@ -6,6 +6,8 @@
 
 # CypressE2eTestingAngular
 
+refer to tutorial: https://angular.de/artikel/angular-cypress-typescript-e2e-testing/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
 ## Development server
