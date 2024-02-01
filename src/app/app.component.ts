@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cypress-e2e-testing-angular';
+
+  constructor(public router: Router) { }
+
+  public navPage() {
+    this.router.navigate(['/page1']);
+  }
 }
